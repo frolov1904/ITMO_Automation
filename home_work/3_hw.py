@@ -17,7 +17,7 @@ def task2():
     x=random.randint(-135,135)
     y=random.randint(-500,500)
     print(x,'-первое число',y,'-второе число')
-    if abs(x-y)>=135:
+    if abs(x-y)==135:
         print('yes\n')
     else:
         print('no\n')
